@@ -1,0 +1,6 @@
+<launch>
+    <node name="serial_io" pkg="serial_io" type="serial_handle.py" output="screen">
+        <param name="/port"     type="string"   value="/dev/pts/11" />
+        <param name="/baudrate" type="int"      value="115200" /> 
+    </node>
+</launch>
